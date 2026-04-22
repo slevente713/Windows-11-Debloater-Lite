@@ -7,4 +7,4 @@ Debloater Lite script 1.0 változtatásai:
 
 Frissíti: *Winget*
 
-Eltávolítja, és letiltja a következő alkalmazásokat és szolgáltatásokat: *Segítség kérése, Visszajelzés küldése, Dev Home törlése, Cortana, To Do, Filmek+TV, Időjárás, Hírek, Sportok, Finanszírozás, Skype, Hangrögzítő, Paint 3D, XPS Megjelenítő, Copilot (Teljesen kiszedi a rendszerből mindenhonnan.), Pénztárca, Sticky Notes (Cetlik), 3D Megjelenítő, Térkép, Tippek, Család, Clipchamp, Windows Movie Maker, Kamera, Wordpad, Fax+Scan*
+Eltávolítja, és letiltja a következő alkalmazásokat és szolgáltatásokat: *Segítség kérése, Visszajelzés küldése, Dev Home törlése, Cortana, To Do, Filmek+TV, Időjárás, Hírek, Sportok, Finanszírozás, Skype, Hangrögzítő, Paint 3D, XPS Megjelenítő, Copilot (Teljesen kiszedi a rendszerből mindenhonnan.), Pénztárca, Sticky Notes (Cetlik), 3D Megjelenítő, Térkép, Tippek, Család, Clipchamp, Windows Movie Maker, Kamera, Wordpad, Fax+Scan, Névjegyek, Mixed Reality Portal, Microsoft Solitare Collection*

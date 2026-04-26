@@ -35,6 +35,12 @@ dism /online /disable-feature /featurename:XPS.Viewer /norestart
 Write-Host "XPS Megjelenítő törlése... Removing XPS Viewer..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.549981C32F101_8wekyb3d8bbwe --silent
 Write-Host "Cortana törlése... Uninstalling Cortana..." -ForegroundColor Cyan
+winget uninstall --id Microsoft.XboxApp_8wekyb3d8bbwe --silent
+Write-Host "XBOX konzol társalkalmazás törlése... Removing XBOX Console Companion..." -ForegroundColor Cyan
+winget uninstall --id Microsoft.XboxIdentityProvider_8wekyb3d8bbwe --silent
+Write-Host "XBOX Identity Provider törlése... Removing XBOX Identity Provider..." -ForegroundColor Cyan
+winget uninstall --id Microsoft.XboxGameOverlay_8wekyb3d8bbwe --silent
+Write-Host "XBOX Game Bar alkalmazás törlése... Removing XBOX Game Bar..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.Copilot_8wekyb3d8bbwe --silent
 $policyPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsCopilot"
 if (!(Test-Path $policyPath)) { New-Item -Path $policyPath -Force | Out-Null }

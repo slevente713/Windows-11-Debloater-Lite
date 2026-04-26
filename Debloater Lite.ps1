@@ -10,6 +10,8 @@ winget uninstall --id Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe --silent
 Write-Host "Visszajelzés küldése törlése... Removing Feedback Hub..." -ForegroundColor Cyan..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.DevHome_8wekyb3d8bbwe --silent
 Write-Host "Dev Home törlése... Removing Dev Home..." -ForegroundColor Cyan
+dism /Online /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root /NoRestart
+Write-Host "Powershell 2.0 törlése... Removing Powershell 2.0..."
 winget uninstall --id Microsoft.Todos_8wekyb3d8bbwe --silent
 Write-Host "To Do törlése... Removing To Do..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.ZuneVideo_8wekyb3d8bbwe --silent

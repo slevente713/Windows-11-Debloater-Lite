@@ -75,8 +75,6 @@ winget uninstall --id Microsoft.WindowsCamera_8wekyb3d8bbwe --silent
 Write-Host "Windows Kamera törlése... Removing Windows Camera..." -ForegroundColor Cyan
 Disable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-WordPad" -NoRestart
 Write-Host "Wordpad törlése... Removing Wordpad" -ForegroundColor Cyan
-Disable-WindowsOptionalFeature -Online -FeatureName "Printing-Foundation-Features" -NoRestart
-Write-Host "Nyomtatási szolgáltatás törlése... Removing the Printer Foundation feature..." -ForegroundColor Cyan
 dism /Online /Disable-Feature /FeatureName:FaxServicesClientPackage /NoRestart
 Write-Host "Fax és scan törlése... Removing Fax and scan..." -ForegroundColor Cyan
 dism /Online /Disable-Feature /FeatureName:Microsoft-Windows-StepsRecorder /NoRestart

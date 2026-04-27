@@ -6,8 +6,20 @@ winget source update --silent
 Write-Host "Winget források frissítése... Update Winget sources" -ForegroundColor Cyan
 winget uninstall --id Microsoft.GetHelp_8wekyb3d8bbwe --silent
 Write-Host "Segítség kérése törlése... Removing Get Help..." -ForegroundColor Cyan
+Get-AppxPackage *MicrosoftJournal* | Remove-AppxPackage
+Write-Host "Journal törlése... Removing Journal..."
 winget uninstall --id Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe --silent
 Write-Host "Visszajelzés küldése törlése... Removing Feedback Hub..." -ForegroundColor Cyan..." -ForegroundColor Cyan
+Get-AppxPackage *CandyCrush* | Remove-AppxPackage
+Write-Host "Candy Crush törlése... Removing Candy Crush..." -ForegroundColor Cyan
+Get-AppxPackage *BingTranslator* | Remove-AppxPackage
+Write-Host "Bing fordító törlése... Removing Bing translator..." -ForegroundColor Cyan
+Get-AppxPackage *Speedtest* | Remove-AppxPackage
+Write-Host "Bing speedtest törlése... Removing Bing speedtest..." -ForegroundColor Cyan
+winget uninstall --name "McAfee" --silent --accept-source-agreements
+Write-Host "MCAfee vírusírtó törlése... Removing MCAfee security..." -ForegroundColor Cyan
+winget uninstall --name "Norton" --silent --accept-source-agreements
+Write-Host "Norton security törlése... Removing Norton security..." -ForegroundColor Cyan
 winget uninstall --id Microsoft.DevHome_8wekyb3d8bbwe --silent
 Write-Host "Dev Home törlése... Removing Dev Home..." -ForegroundColor Cyan
 dism /Online /Disable-Feature /FeatureName:MicrosoftWindowsPowerShellV2Root /NoRestart

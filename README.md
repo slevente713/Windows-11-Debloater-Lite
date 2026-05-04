@@ -1,4 +1,5 @@
 # Windows-11-Debloater-Lite
+# ⚠️ FIGYELEM! A README MÉG NINCS FRISSÍTVE! ATTENTION! README IS NOT UPDATED YET! ⚠️
 Ez egy Windows 11 Debloater script ami csak a kevésbé fontos elemeket törli le. Ha szeretnél egy olyat ami nagyon kitisztítja a Windows-t, akkor nézd meg a profilomon az *XTREME* verziót. 
 This is a Windows 11 Debloater script that only removes less important components. If you want one that really cleans up Windows, check out the *XTREME* version on my profile. 
 

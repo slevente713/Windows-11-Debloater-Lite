@@ -126,3 +126,4 @@ Disable-WindowsOptionalFeature -Online -FeatureName "MathInputPanel"
 Write-Host "Math Input Panel törölve. Math Input Panel törölve." -ForegroundColor Green
 Set-ExecutionPolicy RemoteSigned -Force
 Write-Host "Végeztünk. Indítsd újra a gépet! We're done! Please restart your computer!" -ForegroundColor White
+pause
